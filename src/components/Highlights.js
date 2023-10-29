@@ -39,7 +39,9 @@ const Highlights = () => {
             <div className={highlightsStyle.partOne}>
                 <h2>This weeks specials!</h2>
 
-                <button>Online Menu</button>
+                <Link to="/order-online">
+                    <button>Online Menu</button>
+                </Link>
             </div>
 
             <div className={highlightsStyle.card}>

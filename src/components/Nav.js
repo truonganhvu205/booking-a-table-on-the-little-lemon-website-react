@@ -7,6 +7,7 @@ const Nav = () => {
     return (
         <div className={navStyle.nav}>
             <img src={HeaderLogo} alt="logo" />
+            <div className={navStyle.headerLogoLine}></div>
 
             <div className={navStyle.navList}>
                 <ul>
