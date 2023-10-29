@@ -77,11 +77,12 @@
 .card ul li a {
     margin-top: 4rem;
     display: flex;
+    align-items: center;
     text-decoration: none;
 }
 
 .card ul li span {
-    margin-right: 12px;
+    margin-right: 8px;
 }
 
 .card ul li .orderImage {
