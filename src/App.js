@@ -47,7 +47,7 @@ const timeList = [
 
 // reducer function
 const updateTimes = (state, action) => {
-  if (action.type) {
+  if (action) {
     return [...state]
   }
 }

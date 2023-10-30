@@ -15,11 +15,6 @@ const ReservationsForm = (props) => {
         e.preventDefault()
     }
 
-    const handleDateChange = (e) => {
-        setDate(e.target.value)
-        props.dispatch(e)
-    }
-
     return (
         <div>
             <Header />
@@ -40,8 +35,7 @@ const ReservationsForm = (props) => {
                                         name="date"
                                         id="date"
                                         value={date}
-                                        // onChange={(e) => setDate(e.target.value)}
-                                        onChange={(e) => handleDateChange(e.target.value)}
+                                        onChange={(e) => setDate(e.target.value)}
                                         required
                                     />
                                 </div>
