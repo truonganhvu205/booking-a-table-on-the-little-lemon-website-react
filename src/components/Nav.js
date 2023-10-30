@@ -6,7 +6,10 @@ import navStyle from './components.module.css/Nav.module.css'
 const Nav = () => {
     return (
         <div className={navStyle.nav}>
-            <img src={HeaderLogo} alt="logo" />
+            <Link to="/">
+                <img src={HeaderLogo} alt="logo" />
+            </Link>
+
             <div className={navStyle.headerLogoLine}></div>
 
             <div className={navStyle.navList}>
