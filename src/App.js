@@ -46,11 +46,7 @@ const timeList = [
 ]
 
 // reducer function
-const updateTimes = (state, action) => {
-  if (action) {
-    return [...state]
-  }
-}
+const updateTimes = (state, action) => [...state]
 
 // initial state
 const initializeTimes = [...timeList]
