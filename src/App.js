@@ -3,75 +3,131 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import { useState, useReducer } from 'react'
+import { useReducer } from 'react'
+import { Route, Routes, useNavigate } from "react-router-dom";
 import HomePage from './components/HomePage'
 import Reservations from './components/Reservations'
-
-const timeList = [
-  {
-    id: 0,
-    time: '--',
-    value: '',
-  },
-  {
-    id: 1,
-    time: '17:00 PM',
-    value: '5-pm',
-  },
-  {
-    id: 2,
-    time: '18:00 PM',
-    value: '6-pm',
-  },
-  {
-    id: 3,
-    time: '19:00 PM',
-    value: '7-pm',
-  },
-  {
-    id: 4,
-    time: '20:00 PM',
-    value: '8-pm',
-  },
-  {
-    id: 5,
-    time: '21:00 PM',
-    value: '9-pm',
-  },
-  {
-    id: 6,
-    time: '22:00 PM',
-    value: '10-pm',
-  },
-]
-
-// reducer function
-const updateTimes = (state, action) => [...state]
-
-// initial state
-const initializeTimes = [...timeList]
+import ConfirmReservations from './components/ConfirmReservations';
 
 function App() {
+  const timeList = [
+    {
+      id: 0,
+      time: '--',
+      value: '',
+    },
+    {
+      id: 1,
+      time: '17:00 PM',
+      value: '5-pm',
+    },
+    {
+      id: 2,
+      time: '18:00 PM',
+      value: '6-pm',
+    },
+    {
+      id: 3,
+      time: '19:00 PM',
+      value: '7-pm',
+    },
+    {
+      id: 4,
+      time: '20:00 PM',
+      value: '8-pm',
+    },
+    {
+      id: 5,
+      time: '21:00 PM',
+      value: '9-pm',
+    },
+    {
+      id: 6,
+      time: '22:00 PM',
+      value: '10-pm',
+    },
+  ]
+
+  const fetchData = (date) => {
+    const time = []
+    const result = []
+
+    if (date.getDate()) {
+      timeList.forEach((list) => time.push(list.time))
+
+      for (let i = 0; i < time.length; i++) {
+        if (date.getDate()) {
+          result.push(time[i])
+        }
+      }
+    }
+
+    return result
+  }
+
+  const submitData = (formData) => {
+    if (formData) {
+      return true
+    } else {
+      return false
+    }
+  }
+
+  const navigate = useNavigate();
+
+  const submitForm = (formData) => {
+    if (submitData(formData)) {
+      navigate("/confirm-reservations");
+    }
+  }
+
+  // reducer function
+  const updateTimes = (state, action) => fetchData(new Date(action))
+
+  // initial state
+  const initializeTimes = fetchData(new Date())
+
   const [availableTimes, dispatch] = useReducer(updateTimes, initializeTimes)
 
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <HomePage />,
-    },
-    {
-      path: "/reservations",
-      element:
-        <Reservations
-          availableTimes={availableTimes}
-          dispatch={dispatch}
-        />,
-    },
-  ]);
+  // const router = createBrowserRouter([
+  //   {
+  //     path: "/",
+  //     element: <HomePage />,
+  //   },
+  //   {
+  //     path: "/reservations",
+  //     element:
+  //       <Reservations
+  //         availableTimes={availableTimes}
+  //         dispatch={dispatch}
+  //         submitForm={submitForm}
+  //       />,
+  //   },
+  //   {
+  //     path: "/confirm-reservations",
+  //     element:
+  //       <ConfirmReservations />,
+  //   },
+  // ]);
 
   return (
     <div>
-      <RouterProvider router={router} />
+      {/* <RouterProvider router={router} /> */}
+
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route
+          path="/reservations"
+          element={
+            <Reservations
+              availableTimes={availableTimes}
+              dispatch={dispatch}
+              submitForm={submitForm}
+            />
+          }
+        />
+        <Route path="/confirm-reservations" element={<ConfirmReservations />} />
+      </Routes>
     </div>
   );
 }

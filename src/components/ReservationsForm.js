@@ -13,6 +13,7 @@ const ReservationsForm = (props) => {
 
     const handleSubmit = (e) => {
         e.preventDefault()
+        props.submitForm(e)
     }
 
     return (
@@ -35,7 +36,10 @@ const ReservationsForm = (props) => {
                                         name="date"
                                         id="date"
                                         value={date}
-                                        onChange={(e) => setDate(e.target.value)}
+                                        onChange={(e) => {
+                                            setDate(e.target.value)
+                                            props.dispatch(e.target.value)
+                                        }}
                                         required
                                     />
                                 </div>
@@ -71,7 +75,7 @@ const ReservationsForm = (props) => {
                                     >
                                         {props.availableTimes.map(availableTime => (
                                             <option value={availableTime.value} key={availableTime.id}>
-                                                {availableTime.time}
+                                                {availableTime}
                                             </option>
                                         ))}
                                     </select>

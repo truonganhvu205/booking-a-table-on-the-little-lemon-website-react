@@ -7,6 +7,7 @@ const Reservations = (props) => {
             <ReservationsForm
                 availableTimes={props.availableTimes}
                 dispatch={props.dispatch}
+                submitForm={props.submitForm}
             />
         </div>
     )

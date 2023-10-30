@@ -105,6 +105,10 @@
     cursor: pointer;
 }
 
+.reservationsForm form .reservationsBox a {
+    text-decoration: none;
+}
+
 .reservationsForm form .reservationsBox button {
     padding: 10px;
     padding-left: 2rem;
