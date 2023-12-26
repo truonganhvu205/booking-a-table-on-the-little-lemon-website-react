@@ -1,8 +1,8 @@
 # Create React app
 ```bash
 mkdir little-lemon-website
-git clone https://github.com/truonganhvu205/little-lemon-website.git
 cd little-lemon-website
+git clone https://github.com/truonganhvu205/little-lemon-website.git
 ```
 
 # Libraries
