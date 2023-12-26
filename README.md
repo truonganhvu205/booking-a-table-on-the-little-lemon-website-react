@@ -1,15 +1,14 @@
 # Create React app
 ```bash
-npx create-react-app little-lemon-website
-```
-
-```bash
+mkdir little-lemon-website
+git clone https://github.com/truonganhvu205/little-lemon-website.git
 cd little-lemon-website
 ```
 
 # Libraries
 ## React Router
 ```bash
+npm install
 npm install react-router-dom localforage match-sorter sort-by
 ```
 
