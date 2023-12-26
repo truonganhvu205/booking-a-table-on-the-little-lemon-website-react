@@ -5,7 +5,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import { useReducer } from 'react'
-import { Route, Routes, useNavigate } from "react-router-dom";
+import { Routes, Route, useNavigate } from "react-router-dom";
 import HomePage from './components/HomePage'
 import Reservations from './components/Reservations'
 import ConfirmReservations from './components/ConfirmReservations';
@@ -116,7 +116,7 @@ function App() {
       {/* <RouterProvider router={router} /> */}
 
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/little-lemon-website" element={<HomePage />} />
         <Route
           path="/reservations"
           element={
