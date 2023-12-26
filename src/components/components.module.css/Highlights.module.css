@@ -83,6 +83,10 @@
     text-decoration: none;
 }
 
+.card ul li a:hover {
+    text-decoration: underline;
+}
+
 .card ul li span {
     margin-right: 8px;
 }
