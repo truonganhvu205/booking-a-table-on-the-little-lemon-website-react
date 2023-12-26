@@ -28,7 +28,7 @@ const ConfirmReservations = () => {
 
                         <div className={confirmReservationsFormStyle.reservationsLine}></div>
 
-                        <Link to='/'>
+                        <Link to='/little-lemon-website'>
                             <button>Confirm</button>
                         </Link>
                     </div>

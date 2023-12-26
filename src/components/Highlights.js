@@ -39,7 +39,7 @@ const Highlights = () => {
             <div className={highlightsStyle.partOne}>
                 <h2>This weeks specials!</h2>
 
-                <Link to="/order-online">
+                <Link to="/little-lemon-website/order-online">
                     <button>Online Menu</button>
                 </Link>
             </div>
@@ -59,7 +59,7 @@ const Highlights = () => {
 
                                     <p>{meal.review}</p>
 
-                                    <Link to="/order-online">
+                                    <Link to="/little-lemon-website/order-online">
                                         <span>Order a delivery</span>
 
                                         <img src={meal.order} alt="image" className={highlightsStyle.orderImage} />

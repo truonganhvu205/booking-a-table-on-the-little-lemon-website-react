@@ -6,7 +6,7 @@ import navStyle from './components.module.css/Nav.module.css'
 const Nav = () => {
     return (
         <div className={navStyle.nav}>
-            <Link to="/">
+            <Link to="/little-lemon-website">
                 <img src={HeaderLogo} alt="logo" />
             </Link>
 
@@ -15,22 +15,22 @@ const Nav = () => {
             <div className={navStyle.navList}>
                 <ul>
                     <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/little-lemon-website">Home</Link>
                     </li>
                     <li>
-                        <Link to="/about">About</Link>
+                        <Link to="/little-lemon-website/about">About</Link>
                     </li>
                     <li>
-                        <Link to="/menu">Menu</Link>
+                        <Link to="/little-lemon-website/menu">Menu</Link>
                     </li>
                     <li>
-                        <Link to="/reservations">Reservations</Link>
+                        <Link to="/little-lemon-website/reservations">Reservations</Link>
                     </li>
                     <li>
-                        <Link to="/order-online">Order online</Link>
+                        <Link to="/little-lemon-website/order-online">Order online</Link>
                     </li>
                     <li>
-                        <Link to="/login">Login</Link>
+                        <Link to="/little-lemon-website/login">Login</Link>
                     </li>
                 </ul>
             </div>

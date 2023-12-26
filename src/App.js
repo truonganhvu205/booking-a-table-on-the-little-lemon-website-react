@@ -78,7 +78,7 @@ function App() {
 
   const submitForm = (formData) => {
     if (submitData(formData)) {
-      navigate("/confirm-reservations");
+      navigate("/little-lemon-website/confirm-reservations");
     }
   }
 
@@ -90,35 +90,12 @@ function App() {
 
   const [availableTimes, dispatch] = useReducer(updateTimes, initializeTimes)
 
-  // const router = createBrowserRouter([
-  //   {
-  //     path: "/",
-  //     element: <HomePage />,
-  //   },
-  //   {
-  //     path: "/reservations",
-  //     element:
-  //       <Reservations
-  //         availableTimes={availableTimes}
-  //         dispatch={dispatch}
-  //         submitForm={submitForm}
-  //       />,
-  //   },
-  //   {
-  //     path: "/confirm-reservations",
-  //     element:
-  //       <ConfirmReservations />,
-  //   },
-  // ]);
-
   return (
     <div>
-      {/* <RouterProvider router={router} /> */}
-
       <Routes>
         <Route path="/little-lemon-website" element={<HomePage />} />
         <Route
-          path="/reservations"
+          path="/little-lemon-website/reservations"
           element={
             <Reservations
               availableTimes={availableTimes}
@@ -127,7 +104,7 @@ function App() {
             />
           }
         />
-        <Route path="/confirm-reservations" element={<ConfirmReservations />} />
+        <Route path="/little-lemon-website/confirm-reservations" element={<ConfirmReservations />} />
       </Routes>
     </div>
   );
