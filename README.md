@@ -1,4 +1,4 @@
-# Create React app
+# Clone project
 ```bash
 git init
 git clone https://github.com/truonganhvu205/little-lemon-website.git
