@@ -15,19 +15,19 @@ const Footer = () => {
 
                         <ul>
                             <li>
-                                <Link to="/little-lemon-website">Home</Link>
+                                <Link to="/booking-a-table-on-the-little-lemon-website-react">Home</Link>
                             </li>
                             <li>
-                                <Link to="/little-lemon-website/about">About</Link>
+                                <Link to="/booking-a-table-on-the-little-lemon-website-react/about">About</Link>
                             </li>
                             <li>
-                                <Link to="/little-lemon-website/menu">Menu</Link>
+                                <Link to="/booking-a-table-on-the-little-lemon-website-react/menu">Menu</Link>
                             </li>
                             <li>
-                                <Link to="/little-lemon-website/reservations">Reservations</Link>
+                                <Link to="/booking-a-table-on-the-little-lemon-website-react/reservations">Reservations</Link>
                             </li>
                             <li>
-                                <Link to="/little-lemon-website/login">Login</Link>
+                                <Link to="/booking-a-table-on-the-little-lemon-website-react/login">Login</Link>
                             </li>
                         </ul>
                     </div>

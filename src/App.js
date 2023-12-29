@@ -78,7 +78,7 @@ function App() {
 
   const submitForm = (formData) => {
     if (submitData(formData)) {
-      navigate("/little-lemon-website/confirm-reservations");
+      navigate("/booking-a-table-on-the-little-lemon-website-react/confirm-reservations");
     }
   }
 
@@ -93,9 +93,9 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="/little-lemon-website" element={<HomePage />} />
+        <Route path="/booking-a-table-on-the-little-lemon-website-react" element={<HomePage />} />
         <Route
-          path="/little-lemon-website/reservations"
+          path="/booking-a-table-on-the-little-lemon-website-react/reservations"
           element={
             <Reservations
               availableTimes={availableTimes}
@@ -104,7 +104,7 @@ function App() {
             />
           }
         />
-        <Route path="/little-lemon-website/confirm-reservations" element={<ConfirmReservations />} />
+        <Route path="/booking-a-table-on-the-little-lemon-website-react/confirm-reservations" element={<ConfirmReservations />} />
       </Routes>
     </div>
   );

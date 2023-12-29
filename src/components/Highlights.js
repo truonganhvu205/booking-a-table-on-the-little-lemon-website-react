@@ -59,7 +59,7 @@ const Highlights = () => {
 
                                     <p>{meal.review}</p>
 
-                                    <Link to="/little-lemon-website/order-online">
+                                    <Link to="/booking-a-table-on-the-little-lemon-website-react/order-online">
                                         <span>Order a delivery</span>
 
                                         <img src={meal.order} alt="image" className={highlightsStyle.orderImage} />

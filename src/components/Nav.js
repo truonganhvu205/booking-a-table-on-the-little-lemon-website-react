@@ -6,7 +6,7 @@ import navStyle from './components.module.css/Nav.module.css'
 const Nav = () => {
     return (
         <div className={navStyle.nav}>
-            <Link to="/little-lemon-website">
+            <Link to="/booking-a-table-on-the-little-lemon-website-react">
                 <img src={HeaderLogo} alt="logo" />
             </Link>
 
@@ -15,22 +15,22 @@ const Nav = () => {
             <div className={navStyle.navList}>
                 <ul>
                     <li>
-                        <Link to="/little-lemon-website">Home</Link>
+                        <Link to="/booking-a-table-on-the-little-lemon-website-react">Home</Link>
                     </li>
                     <li>
-                        <Link to="/little-lemon-website/about">About</Link>
+                        <Link to="/booking-a-table-on-the-little-lemon-website-react/about">About</Link>
                     </li>
                     <li>
-                        <Link to="/little-lemon-website/menu">Menu</Link>
+                        <Link to="/booking-a-table-on-the-little-lemon-website-react/menu">Menu</Link>
                     </li>
                     <li>
-                        <Link to="/little-lemon-website/reservations">Reservations</Link>
+                        <Link to="/booking-a-table-on-the-little-lemon-website-react/reservations">Reservations</Link>
                     </li>
                     <li>
-                        <Link to="/little-lemon-website/order-online">Order online</Link>
+                        <Link to="/booking-a-table-on-the-little-lemon-website-react/order-online">Order online</Link>
                     </li>
                     <li>
-                        <Link to="/little-lemon-website/login">Login</Link>
+                        <Link to="/booking-a-table-on-the-little-lemon-website-react/login">Login</Link>
                     </li>
                 </ul>
             </div>

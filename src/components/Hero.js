@@ -11,7 +11,7 @@ const Hero = () => {
                 <h3>Chicago</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste ex maxime cupiditate similique eos magnam, libero aspernatur nulla incidunt consequuntur suscipit. Optio rerum voluptate officia, autem sequi ipsum tenetur voluptas, at molestias totam eius molestiae. Veniam mollitia deserunt unde! Dolores eius esse blanditiis rerum beatae ipsam assumenda culpa nesciunt expedita?</p>
 
-                <Link to="/little-lemon-website/reservations">
+                <Link to="/booking-a-table-on-the-little-lemon-website-react/reservations">
                     <button>Reserve a Table</button>
                 </Link>
             </div>
