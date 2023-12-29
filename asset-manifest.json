@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/little-lemon-website/static/css/main.0f53e5f1.css",
-    "main.js": "/little-lemon-website/static/js/main.ac79219b.js",
-    "static/js/787.980eb6f2.chunk.js": "/little-lemon-website/static/js/787.980eb6f2.chunk.js",
-    "static/media/about-two.jpg": "/little-lemon-website/static/media/about-two.7f44c6d6e341a27d14b3.jpg",
-    "static/media/about-one.jpg": "/little-lemon-website/static/media/about-one.6ba0e06bfa9c1ea75109.jpg",
-    "static/media/greek-salad.jpg": "/little-lemon-website/static/media/greek-salad.bed423a1fab5b210e347.jpg",
-    "static/media/hero-image.jpg": "/little-lemon-website/static/media/hero-image.e8abf5b772b6817189aa.jpg",
-    "static/media/bruchetta.jpg": "/little-lemon-website/static/media/bruchetta.cc98b69b023d1447eeba.jpg",
-    "static/media/person-four.png": "/little-lemon-website/static/media/person-four.34d1268653c793c2b36a.png",
-    "static/media/person-two.png": "/little-lemon-website/static/media/person-two.b7c98f510fce081db84b.png",
-    "static/media/person-three.png": "/little-lemon-website/static/media/person-three.8cdd4a45fbc247dbf5ad.png",
-    "static/media/person-one.png": "/little-lemon-website/static/media/person-one.d48d7828d40136292c0e.png",
-    "static/media/footer-logo.png": "/little-lemon-website/static/media/footer-logo.2c859235d6c57bb54176.png",
-    "static/media/lemon-dessert.jpg": "/little-lemon-website/static/media/lemon-dessert.953ee735801f64ee6471.jpg",
-    "static/media/header-logo.png": "/little-lemon-website/static/media/header-logo.d4cae6fac8384c2dae04.png",
-    "static/media/lemon-logo.png": "/little-lemon-website/static/media/lemon-logo.b8445110e4e49b6b30a0.png",
-    "index.html": "/little-lemon-website/index.html",
-    "main.0f53e5f1.css.map": "/little-lemon-website/static/css/main.0f53e5f1.css.map",
-    "main.ac79219b.js.map": "/little-lemon-website/static/js/main.ac79219b.js.map",
-    "787.980eb6f2.chunk.js.map": "/little-lemon-website/static/js/787.980eb6f2.chunk.js.map"
+    "main.css": "/booking-a-table-on-the-little-lemon-website-react/static/css/main.0f53e5f1.css",
+    "main.js": "/booking-a-table-on-the-little-lemon-website-react/static/js/main.be2243af.js",
+    "static/js/787.980eb6f2.chunk.js": "/booking-a-table-on-the-little-lemon-website-react/static/js/787.980eb6f2.chunk.js",
+    "static/media/about-two.jpg": "/booking-a-table-on-the-little-lemon-website-react/static/media/about-two.7f44c6d6e341a27d14b3.jpg",
+    "static/media/about-one.jpg": "/booking-a-table-on-the-little-lemon-website-react/static/media/about-one.6ba0e06bfa9c1ea75109.jpg",
+    "static/media/greek-salad.jpg": "/booking-a-table-on-the-little-lemon-website-react/static/media/greek-salad.bed423a1fab5b210e347.jpg",
+    "static/media/hero-image.jpg": "/booking-a-table-on-the-little-lemon-website-react/static/media/hero-image.e8abf5b772b6817189aa.jpg",
+    "static/media/bruchetta.jpg": "/booking-a-table-on-the-little-lemon-website-react/static/media/bruchetta.cc98b69b023d1447eeba.jpg",
+    "static/media/person-four.png": "/booking-a-table-on-the-little-lemon-website-react/static/media/person-four.34d1268653c793c2b36a.png",
+    "static/media/person-two.png": "/booking-a-table-on-the-little-lemon-website-react/static/media/person-two.b7c98f510fce081db84b.png",
+    "static/media/person-three.png": "/booking-a-table-on-the-little-lemon-website-react/static/media/person-three.8cdd4a45fbc247dbf5ad.png",
+    "static/media/person-one.png": "/booking-a-table-on-the-little-lemon-website-react/static/media/person-one.d48d7828d40136292c0e.png",
+    "static/media/footer-logo.png": "/booking-a-table-on-the-little-lemon-website-react/static/media/footer-logo.2c859235d6c57bb54176.png",
+    "static/media/lemon-dessert.jpg": "/booking-a-table-on-the-little-lemon-website-react/static/media/lemon-dessert.953ee735801f64ee6471.jpg",
+    "static/media/header-logo.png": "/booking-a-table-on-the-little-lemon-website-react/static/media/header-logo.d4cae6fac8384c2dae04.png",
+    "static/media/lemon-logo.png": "/booking-a-table-on-the-little-lemon-website-react/static/media/lemon-logo.b8445110e4e49b6b30a0.png",
+    "index.html": "/booking-a-table-on-the-little-lemon-website-react/index.html",
+    "main.0f53e5f1.css.map": "/booking-a-table-on-the-little-lemon-website-react/static/css/main.0f53e5f1.css.map",
+    "main.be2243af.js.map": "/booking-a-table-on-the-little-lemon-website-react/static/js/main.be2243af.js.map",
+    "787.980eb6f2.chunk.js.map": "/booking-a-table-on-the-little-lemon-website-react/static/js/787.980eb6f2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0f53e5f1.css",
-    "static/js/main.ac79219b.js"
+    "static/js/main.be2243af.js"
   ]
 }
